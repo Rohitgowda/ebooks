@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+/* footer */
+#footer {
+	
+	margin-top:20px;clear:both;
+	 width: auto;
+	
+	padding: 20px 10px 20px 10px;; 
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color:white;
+	background-color:black;
+}
+
+#footer a{
+	color:white;
+	font-weight: normal;
+}
+/* end of footer */

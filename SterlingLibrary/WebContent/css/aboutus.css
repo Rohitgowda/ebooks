@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+
+#container1{
+	/* width: 1300px; */
+	height:auto;
+	margin: 0 auto;
+	padding: 0 0px;
+	background: white ;
+}
+#content1 > div{
+	 margin-left:0px;
+	margin-right:0px;
+	 float:left; 
+}
+#about.body{
+	width:953px;
+	height:750px;
+	padding:23px;
+	background:#171716 ;
+	margin-bottom:20px;
+	border-radius:20px 20px 20px 20px;
+	 margin-left:12px;
+} 
+#main1 {
+	float:right;
+	clear:both;
+	width: 510px;
+	height:auto;
+	/* box-shadow: 8px 8px 8px 8px rgb(136, 136, 136); */
+	padding:20px;
+	background:#fff;
+	border-radius:0px 30px 0px 0;
+	border:10px solid  #af8112;
+	/* margin-left: 10px; */
+	
+}
+#main1  h1{
+	color: #af8112;
+	font-size: 34px;
+	font-family:"Oswald";
+}
+#main1 p{
+	color:#2b2b2a;
+	width:500px;
+	font-size:14px;
+	 /* font-weight:bold; */  
+	line-height:1.5em;
+	padding:5px;
+	text-align:justify;
+	margin-bottom:13px;
+	
+}
+#about p span {
+	font-size: 12px;
+}
+#about #main1 h1 {
+	background: url(../images/separator-dark.png) repeat-x left bottom;
+	padding: 0 0 20px;
+}
+#about #main1 h4 {
+	color: #626161;
+	font-family: "Oswald";
+	font-size: 15px;
+	font-weight:bold;
+	line-height: 24px;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+}
+/** Sidebar **/
+#sidebar {
+	float: left;
+	background-position: 0 0;
+	width: 340px;
+	
+	padding: 0px 0 0;
+	
+	
+}
+#sidebar div.body {
+	background-repeat: repeat-y;
+	min-height: 100px;
+	width: 340px;
+	padding: 24px 0 0;
+	text-align: center;
+	border:10px solid #af8112;
+	border-radius:0px 0px 0px 30px;
+	background:#fff;
+}
+#sidebar div.contact {
+	background: none;
+	height: auto;
+	width: 300px;
+	padding: 0px 20px 0;
+	margin-bottom:20px;
+	
+}
+#sidebar div.contact p {
+	text-align: center;
+	font-size:10px;
+	color:#af8112;
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:10px;
+	line-height:1.1em;
+	background:#2b2b2a;
+	border-radius:0px 0px 0px 20px;
+	
+}
+#sidebar div.contact b{
+	font-size:14px;
+	color:#626161;
+	text-transform:uppercase;
+	line-height:1.5em;
+	
+}
+#sidebar div.contact b.email{
+	font-size:20px;
+	color:black;
+	text-transform:lowercase;
+	
+}
+#contents #about, #contents #contact {
+	min-height: 900px;
+	width: 900px;
+	padding: 20px 30px 0;
+}
